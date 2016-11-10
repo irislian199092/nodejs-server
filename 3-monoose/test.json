@@ -1,0 +1,49 @@
+{
+	"name":"irislian199092231r33r3",
+	"image":"199092irislian",
+	"category":"main",
+	"label":"f3ew",
+	"price":"231",
+	"description":"fewr3"
+}
+
+{
+	"username":"irislian199092",
+	"password":"199092irislian",
+	"firstname":"lu",
+	"lastname":"lian"
+}
+{
+	"username":"admin",
+	"password":"199092irislian",
+	"firstname":"admin",
+	"lastname":"admin"
+}
+{
+	"username":"iris",
+	"password":"199092irislian"
+}
+{
+	"username":"i",
+	"password":"199092irislian"
+}
+
+{
+	"rating":4,
+	"comment":"this is unipue!"
+}
+
+rating:{
+		type:Number,
+		min:1,
+		max:5,
+		required:true
+	},
+	comment:{
+		type:String,
+		required:true
+	},
+	postedBy:{
+		type:mongoose.Schema.Types.ObjectId,
+		ref:'User'
+	}
