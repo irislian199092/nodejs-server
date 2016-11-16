@@ -1,0 +1,9 @@
+module.exports={
+	'mongoUrl':'mongodb://localhost:27017/conFusion',
+	'secretKey':'12345-67890-09876-54321',
+	'github':{
+		clientID:'694c5b36a6a4237dee8f',
+		clientSecret:'bdffa7ac4ffd39b5753b038654180c8e3aa6677d',
+		callbackURL:'https://localhost:3443/users/github/callback'
+	}
+}

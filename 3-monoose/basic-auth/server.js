@@ -17,7 +17,7 @@ function auth(req,res,next){
         next(err);
         return;
     }
-
+    
     var auth=new Buffer(authHeader.split(' ')[1],'base64').toString().split(':');
     console.log(auth);
     var username=auth[0];

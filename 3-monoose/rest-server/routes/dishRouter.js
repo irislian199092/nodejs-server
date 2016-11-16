@@ -38,6 +38,7 @@ dishRouter.route('/')
 	Dishes.remove({},function(err,resp){
 		if(err) throw err;
 		console.log('remove dish!');
+		console.log(resp);
 		res.json(resp);
 	})
 });
